@@ -1,8 +1,8 @@
 import string
 import asyncio
 from collections import defaultdict, Counter
-from matplotlib import pyplot as plt
 import httpx
+from matplotlib import pyplot as plt
 
 #Getting data from url
 async def get_text(url):
